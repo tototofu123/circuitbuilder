@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary-50: #f0fdf4;
+    --color-primary-100: #dcfce7;
+    --color-primary-500: #22c55e;
+    --color-primary-600: #16a34a;
+    --color-primary-700: #15803d;
+
+    --color-surface-50: #ffffff;
+    --color-surface-100: #f4f4f5;
+    --color-surface-200: #e4e4e7;
+    --color-surface-800: #27272a;
+    --color-surface-900: #18181b;
+    --color-surface-950: #09090b;
+
+    --color-wire-active: #22c55e;
+    --color-wire-inactive: #71717a;
+    --color-wire-hover: #10b981;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overscroll-behavior: none;
+    overflow: hidden;
+    background-color: var(--color-surface-50);
+    color: var(--color-surface-900);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@keyframes probe-pulse {
+    0%   { transform: scale(1); opacity: 0.8; }
+    100% { transform: scale(2); opacity: 0; }
+}

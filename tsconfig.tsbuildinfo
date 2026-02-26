@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/canvas.tsx","./src/components/elementvisualizer.tsx","./src/components/propertiespanel.tsx","./src/components/toolbar.tsx","./src/engine/explanation.ts","./src/engine/graph.ts","./src/engine/solver.ts","./src/store/circuitstore.ts","./src/types/circuit.ts"],"errors":true,"version":"5.7.3"}
