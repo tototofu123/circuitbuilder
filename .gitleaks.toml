@@ -1,0 +1,9 @@
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Common non-secret test placeholders"
+regexes = [
+  '''(?i)test[_-]?key''',
+  '''(?i)example[_-]?token'''
+]
